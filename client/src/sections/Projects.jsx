@@ -20,32 +20,30 @@ const projects = [
 
   {
     number: "02",
-    type: "FULL STACK",
-    title: "Portfolio Website",
+    type: "Web Application",
+    title: "Dukan Dost ",
     description:
-      "A modern personal portfolio built to showcase my development work, technical skills, and professional journey.",
+      "A modern personal app built to help local shop owners help manage their stocks, sales and profit.",
     tags: [
       "React",
-      "Node.js",
-      "Express",
-      "MongoDB",
+      "Vite"
     ],
-    link: "#",
+    link: "https://dukan-dost-seven.vercel.app/",
   },
 
   {
     number: "03",
-    type: "MACHINE LEARNING",
-    title: "Diabetes Risk Prediction",
+    type: "MERN Web App",
+    title: "Sports App",
     description:
-      "A machine learning project exploring how structured health-related data can be used to predict different levels of diabetes risk.",
+      " Developed a full stack web app enabling team coordination, event scheduling, and real time match updates",
     tags: [
-      "PyTorch",
-      "Machine Learning",
-      "Python",
-      "Data Analysis",
+      "Reactjs",
+      "Nodejs",
+      "Expressjs",
+      "MongoDB",
     ],
-    link: "#",
+    link: "https://sports-taupe-seven.vercel.app/",
   },
 ];
 
@@ -80,4 +78,4 @@ const Projects = () => {
   );
 };
 
-export default Projects;
+export default Projects; 
